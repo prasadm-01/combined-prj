@@ -1,0 +1,41 @@
+.fb-component {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fb-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.fb-component p {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.fb-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.fb-btn {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.fb-message {
+  font-size: 0.9rem;
+  color: var(--text);
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}

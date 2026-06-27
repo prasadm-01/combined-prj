@@ -1,0 +1,58 @@
+.upc-component {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.upc-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.upc-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.upc-btn {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background-color: var(--surface);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.upc-btn:hover {
+  background-color: var(--bg);
+}
+
+.upc-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.upc-card p {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.upc-label {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.upc-empty {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

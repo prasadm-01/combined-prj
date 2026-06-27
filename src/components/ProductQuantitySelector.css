@@ -1,0 +1,53 @@
+.pq-component {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pq-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.pq-component p {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.pq-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 6px 0;
+}
+
+.pq-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  background-color: var(--surface);
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.pq-btn:hover:not(:disabled) {
+  background-color: var(--bg);
+}
+
+.pq-btn:disabled {
+  color: var(--text-muted);
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pq-qty {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+}

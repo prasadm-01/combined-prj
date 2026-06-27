@@ -1,0 +1,32 @@
+/* Dark theme — slate surface on near-black page */
+:root {
+  --bg: #0F172A;
+  --surface: #1E293B;
+  --primary: #58D68D;
+  --primary-hover: #45B97D;
+  --danger: #E74C3C;
+  --danger-hover: #C0392B;
+  --accent: #7C8CFF;
+  --text: #E2E8F0;
+  --text-muted: #94A3B8;
+  --border: #334155;
+  --border-soft: #1E293B;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
